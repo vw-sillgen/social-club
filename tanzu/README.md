@@ -19,3 +19,8 @@ kubectl describe services my-service
     * IP .. LoadBalancer Ingress
     * PORT .. TargetPort
     * example: ``http://a9b026dcd488c495cb4994c7d31f0ac3-1663560177.eu-west-1.elb.amazonaws.com:8080/``
+* delete a workload cluster and management cluster
+```
+tanzu cluster delete social-workload-cluster
+tanzu mc delete social-management-cluster
+```
