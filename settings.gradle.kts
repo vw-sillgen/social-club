@@ -1,3 +1,3 @@
 rootProject.name = "social-club"
-//include("service")
+include("service")
 //include("ui")
